@@ -1,0 +1,162 @@
+h1, h2, h3, h4, h5, h6, p, ul, li, body, html, form, fieldset { margin:0; padding:0; outline:none; font-weight:normal; border:0 }
+form, fieldset { float:left; width:100% }
+img { border:0; }
+a { text-decoration:none; border:0; outline:0; }
+.clear { clear:both; width:auto !important }
+body { font-family:Verdana, Geneva, sans-serif; font-size:11px; background:#fff url(body_bg.gif) no-repeat 0 0; }
+ul { list-style:none; }
+.wrapper{margin:0 auto; width:960px;}
+
+
+#outer_home{float: left; width: 100%; background: url(home_bg.gif) repeat-y center 0;}
+#home{float: left; width: 100%;}
+.home_bg{float: left; width: 100%; height: 128px; background: url(home_bottom_bg.gif) no-repeat center 0;}
+#header{float:left; width:100%; height:200px; background: url(header_bg2.gif) no-repeat center 20px;}
+#page{float:left; width: 960px;}
+.navigation{float: left; width:990px; padding: 65px 0px 40px;}
+.navigation ul{float: left; width: 100%;}
+.navigation ul li{float: left; width: auto; padding:0 35px 0 0;}
+.navigation ul li.last{padding: 0;}
+.navigation ul a{float: left; font: normal 22px/63px "Asap",sans-serif; color: #3788ae; text-transform: uppercase;}
+.navigation a img{float: left; padding-left: 35px;}
+
+.content{float: left; width: 100%; padding-top: 56px; min-height: 534px; height:  auto !important; height: 534px;}
+.content h1{float: left; width: 100%; text-align: center; font: bold 26px/42px "Asap",sans-serif; color: #191919; text-transform: uppercase;}
+.content h1 span{font-weight: normal; text-transform: none; line-height: 50px;}
+.content p{float: left; width: 100%; text-align: center; font: normal 22px/28px "Asap",sans-serif; color: #191919;  padding: 20px 0 7px;}
+
+#footer{float:left; width:100%; padding-bottom: 105px;}
+#footer h3{float:left; width:100%; padding-bottom: 83px;  text-align: center; text-transform: uppercase; font: normal 26px/42px "Asap",sans-serif; color: #764406; background: url(sponsors_bg.gif) no-repeat center 0;}
+.sponsors,.sponsors ul{float:left; width:100%;}
+.sponsors ul li{float:left; width:auto; padding-top: 30px; /*padding-right: 63px;*/}
+.sponsors ul li.first{/*padding-right: 68px;*/}
+.sponsors ul li.mid{padding-right: 51px;}
+.sponsors ul li.last{padding-right: 0px;}
+.sponsors ul a,.sponsors ul a img{float:left; width:auto;}
+
+
+#outer_event{float: left; width: 100%; background: url(event_bg.gif) repeat-y center 0;}
+#event{float: left; width: 100%; padding-top: 66px; min-height: 1640px; height: auto !important; height: 1640px; position: relative;}
+.event_bg{float: left; width: 100%; height: 116px; background: url(event_bottom_bg.jpg) repeat-y center 0;}
+#event h2{float: left; width:100%; text-align: center; font: bold 93px/93px "Asap",sans-serif; color: #212121; }
+.numbers{float: left; width: auto; padding-left: 52px; padding-top: 77px;}
+.numbers ul{float: left; width: 100%; text-align: center;}
+.numbers ul li{float: left; width: 323px; text-align: center;}
+.numbers ul li.last{width: 258px;}
+.numbers a strong{float: left; width: 206px;  font: bold 103px/206px "Asap",sans-serif; color: #eeefef;}
+.numbers a span{float: left; width: 206px;  font: bold 26px/38px "Asap",sans-serif; padding-top: 31px;}
+.numbers a.developer strong{background: #bc4b49; }
+.numbers a.developer span{color: #bc4b49; display: block;}
+.numbers a.designer strong{background: #3788ae; }
+.numbers a.designer span{color: #3788ae; display: block;}
+.numbers a.healthcare_expert strong{background: #f7951e; }
+.numbers a.healthcare_expert span{color: #f7951e; display: block;}
+
+.pics{float: left; width: 100%; padding-top: 64px;}
+.row{float: left; width: auto; padding-bottom: 90px;}
+.box1{float: left; width: auto; position: relative; z-index: 20;}
+.box2{float: left; width: auto; margin-left: -11px; padding-top: 10px; position: relative; z-index: 22;}
+.box3{float: left; width: auto;margin-left:-8px; top: -13px; position: relative; z-index: 21;}
+.box4{float: left; width: auto; position: relative; z-index: 20; }
+.box5{float: left; width: auto; margin-left: -18px; position: relative; z-index: 22;}
+.box6{float: left; width: auto;margin-left:-24px; position: relative; z-index: 21;top: -16px;}
+.box7{float: left; width: auto; position: relative; z-index: 20; top: -7px;left: 7px;}
+.box8{float: left; width: auto; top: -14px; position: relative; z-index: 22;}
+.box9{float: left; width: auto;margin-left:-10px; position: relative; z-index: 21;top: -11px;}
+
+.box1 span{position: absolute; bottom: -65px; left: 3px;}
+.box2 span{position: absolute; top:0px; left: 0;}
+.box2 span{position: absolute; top:-33px; left: 41px;}
+.box3 span{position: absolute; bottom:-30px; right: 10px;}
+.box5 span{position: absolute; top:-33px; right:12px;}
+.box7 span{position: absolute; top:-45px; right: 53px;}
+.box8 span{position: absolute; bottom:-40px; right: 50px;}
+.box9 span{position: absolute; top:-64px; left:50px;}
+
+
+.side_btns{float: left; position: absolute; right: -109px; top: 550px; width: 72px; padding-left: 7px; padding-top: 43px;}
+.side_btns ul,.side_btns ul li{float: left; width:100%; }
+.side_btns ul li{padding-bottom: 19px; }
+.side_btns ul a{float: left; width:72px; height: 72px; background: url(btns_bg.png) no-repeat 0 0;}
+.side_btns ul a.active{background: url(btns_hover.gif) no-repeat 0 0;}
+.side_btns ul a img{padding: 17px 22px;}
+.side_btns2{position: absolute; right:-109px; top:-41px;}
+.side_btns2 ul.p a img{padding: 0}
+
+
+#outer_projects{float: left; width: 100%; background: url(projects_bg.gif) repeat-y center 0;}
+#projects{float: left; width: 100%;  padding-top: 46px;  left: -3px; position: relative; z-index: 2; min-height: 1691px;height: auto !important; height: 1691px;}
+#projects h2{float: left; width: 100%; text-align: center; padding-bottom: 7px; font: bold 93px/106px "Asap",sans-serif; color: #efefef; }
+#projects .head{float: left; width: auto; padding:55px 0 0 371px; text-align: center;}
+#projects .head a{float: left; width: auto;}
+#projects a.projects_ strong{float: left; width: 206px; text-align: center;  font: bold 122px/206px "Asap",sans-serif;  color: #efefef; background: #192b32; }
+#projects a.projects_ span{float: left; width: 206px; clear: left;  font: bold 26px/38px "Asap",sans-serif; padding-top: 31px;color: #192b32;}
+
+.outer_project_details{float: left; width: 100%;  background: #758084; }
+.project_details{float: left; width: 100%; padding:0px 0px 34px; background: #fff; margin-top: 62px; z-index: 2;}
+.project_details_bg{float: left; width: 100%; height: 118px; background:url(projects_bottom_bg.jpg) no-repeat center 0;}
+.project_details ul{float: left; width: auto; padding: 7px 0 0 34px;}
+.project_details ul li{float: left; width: 247px;position: relative; z-index: 6; padding: 20px 15px 20px 20px; background: #f2f2f1; margin: 20px 25px 0 0;}
+.project_details ul li.last{margin-right: 0;}
+.project_details a{float: left; position:relative;}
+.project_details ul span{padding-left: 4px; font: normal 18px/25px  "Asap",sans-serif; color: #333333;}
+.project_details small.pict{float: left; width: 247px; height: 185px; background: #7d7d7d; margin-top: 15px; position: relative; z-index: 20;}
+
+.award_aging_en{position: absolute; width: 89px; height: 89px; z-index: 50; background: url(award_aging_en.png) no-repeat 0 0; right: -17px;  top: -21px; }
+
+.award_education_en{position: absolute; width: 89px; height: 89px; z-index: 50; background: url(award_education_en.png) no-repeat 0 0; right: -17px;  top: -21px; }
+
+.project_details .award_happy_en{position: absolute; width: 89px; height: 89px; z-index: 50; background: url(award_happy_en.png) no-repeat 0 0; right: -17px;  top: -21px; }
+
+.project_details .award_hospitals_en{position: absolute; width: 89px; height: 89px; z-index: 50; background: url(award_hospitals_en.png) no-repeat 0 0; right: -17px;  top: -21px; }
+
+.project_details .award_innovation_en{position: absolute; width: 89px; height: 89px; z-index: 50; background: url(award_innovation_en.png) no-repeat 0 0; right: -17px;  top: -21px; }
+
+.project_details .award_ldc_en{position: absolute; width: 89px; height: 89px; z-index: 50; background: url(award_ldc_en.png) no-repeat 0 0; right: -17px;  top: -21px; }
+
+.project_details .award_maternal_en{position: absolute; width: 89px; height: 89px; z-index: 50; background: url(.award_maternal_en.png) no-repeat 0 0; right: -17px;  top: -21px; }
+
+.project_details .award_peers_en{position: absolute; width: 89px; height: 89px; z-index: 50; background: url(award_peers_en.png) no-repeat 0 0; right: -17px;  top: -21px; }
+
+
+.project_details .small_popup{float: left; position: absolute; display: none; z-index: 45; left: 0; top: 0; width: 100%; height: 100%; background: #303030;}
+.project_details .small_popup span{color:#fff; padding:16px 25px; float: left;}
+.project_details ul li:hover .small_popup{display: block;}
+
+
+.black{float: left; position: absolute; z-index:11;  left: 0px; top: 552px; width: 960px; height: 1047px; background: #000;  }
+.project_overlay{float: left; position: absolute; z-index:12;  left: 0px; top: 549px; width: 900px; padding: 0 30px 44px; background: #fff;}
+.project_overlay h3{font:  24px/74px "Asap",sans-serif; color: #192b32;}
+.project_overlay h4{font:bold  18px/20px "Asap",sans-serif; color: #192b32;}
+.project_overlay p{font:  18px/20px "Asap",sans-serif; color: #192b32; padding-bottom: 30px;}
+.project_overlay p.last{font-size: 14px;}
+.project_overlay .desc{float: left; width: auto; padding-bottom: 30px;}
+.project_overlay .desc a,.desc img{float: left;width: auto;}
+.desc a{margin-right: 25px;}
+.desc a.btn1{float: left; width: auto; background: url(btn_right1.gif) no-repeat right 0;}
+.desc a.btn1 span{float: left; width: auto; padding: 0 15px; background: url(btn_left1.gif) no-repeat left 0;font:bold  14px/37px "Asap",sans-serif; color: #fff;}
+.other_details{float: left; width: 100%; border-top: 1px solid #b9bec1;}
+.other_details h5{font:bold  18px/55px "Asap",sans-serif; color: #192a32;}
+.other_details a{font:14px/39px "Asap",sans-serif; color: #192a32; float: left;}
+.other_details ul{float: left; width: 233px; padding-right: 25px;}
+.other_details ul li{float: left; width: 230px; padding-left: 3px; border-bottom: 1px solid #dbdbdb;}
+.other_details ul li.last{border: 0;}
+.other_details a.social{float: right; margin: 7px 5px 0 0;}
+.other_details ul.last{width: 345px; padding-right: 0; padding-left: 39px;}
+.other_details ul.last li{width: 360px; padding: 0;}
+.other_details ul.last p{font-size: 14px; line-height: 22px; padding: 8px 0 0;}
+
+#outer_contact{float: left; width: 100%; position: relative; background: url(contact_bg.gif) repeat-y center 0; min-height: 771px; height: auto !important; height: 771px;}
+#contact{float: left; width:100%;  padding-top: 46px; position: relative;}
+#contact h2{float: left; width: 100%;text-align: center; font: bold 69px/93px "Asap",sans-serif; color: #efefef; }
+#contact h3{float: left; width: 100%; font: bold 22px/32px "Asap",sans-serif; color: #efefef; }
+#contact a{float: left; width: 100%;  font: normal 22px/32px "Asap",sans-serif; color: #efefef; }
+#contact ul{float: left; width: 233px; padding:55px 4px 0; min-height: 513px; height: auto !important; height: 513px;}
+#contact ul li{float: left; width: 100%;}
+#contact ul.social{width: 270px; padding: 63px 0 0 1px; margin-right: -35px;}
+#contact ul.social li{padding-bottom: 29px;}
+#contact ul img{vertical-align: middle;}
+p.copy{float: left; width: 100%; background: #a23f3d url(p_bg.gif) repeat-x 0;  text-align: center; font:bold 14px/35px "Asap",sans-serif; color: #c77e7c; }
+
+#contact  a.back2top{position: absolute; width: auto; right: -52px;  top: -56px;}
+#contact  a.back2top span{float: left; font: bold 23px/40px "Asap",sans-serif ; color: #d3d3d3; padding-right: 10px;}

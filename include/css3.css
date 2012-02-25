@@ -1,0 +1,6 @@
+#event h2{ text-shadow:3px 3px #ACACAC; filter: Shadow(Color=#ACACAC,Direction=142,Strength=5);}
+#projects h2{ text-shadow:3px 3px #697f83; filter: Shadow(Color=#244755,Direction=142,Strength=5);}
+.numbers a strong,.projects_ strong{border-radius:103px 103px 103px 103px; -moz-border-radius:103px 103px 103px 103px; -webkit-border-radius:103px; position: relative; behavior:url(include/PIE.htc);}
+.project_details,.project_details ul li{border-radius:10px 10px 10px 10px; -moz-border-radius:10px 10px 10px 10px; -webkit-border-radius:10px; position: relative; behavior:url(include/PIE.htc);}
+.project_details .small_popup,.project_overlay{border-radius:10px 10px 10px 10px; -moz-border-radius:10px 10px 10px 10px; -webkit-border-radius:10px;  behavior:url(include/PIE.htc);}
+.black{ opacity:.4; filter:"alpha(opacity=50)"; filter:alpha(opacity=50);  }
